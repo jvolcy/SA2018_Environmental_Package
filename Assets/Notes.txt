@@ -1,6 +1,8 @@
 The output of this project is the unit package file file Environment.unitypackage.
 The package is sourced from the Assets/Environment directory.
+To build: select the "Environment" folder in the project window.  Then "Assets->Export Package".  Save as Environment.unitypackage in the Build folder to avoid Git version control.
 
 This package contains trees, details, terrain layers water elements curated from the Unity Standard Assets 2018 and Unity Terrain Sample Assets Pack packages.
 Most of the original .tif textures have been replaced with .png textures to reduce file size.  (The package is approximately 3X larger with .tif files).
 
+You can individually instantiate rocks in your scene or you can add the rocks as "trees" in your terrain.  This second option allows you to mass place them.
